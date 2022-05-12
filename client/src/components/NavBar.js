@@ -54,10 +54,13 @@ const NavBar = () => {
         setregistermodal(true)
     }
     const logout = () => {
+        console.log("Loggin out...")
         dispatch(logoutPending())
         Cookies.remove('access-token')
         dispatch(logoutSuccess())
         Cookies.remove('ID')
+        Cookies.remove('Username')
+        console.log("Logged out!")
         navigate("/Dashboard")
     }
     const gotouser = () => {
