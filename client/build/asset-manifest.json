@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef3404d5.css",
-    "main.js": "/static/js/main.f3c6deb7.js",
+    "main.js": "/static/js/main.0a6bf500.js",
     "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
     "static/media/santhoshProfPic.jpg": "/static/media/santhoshProfPic.c9d04bde996cbf435ca7.jpg",
     "static/media/emptyimage.png": "/static/media/emptyimage.185f813e85e989ea5bd3.png",
@@ -12,11 +12,11 @@
     "static/media/stackoverflowlogo.PNG": "/static/media/stackoverflowlogo.b84cf79df862651fe4f0.PNG",
     "index.html": "/index.html",
     "main.ef3404d5.css.map": "/static/css/main.ef3404d5.css.map",
-    "main.f3c6deb7.js.map": "/static/js/main.f3c6deb7.js.map",
+    "main.0a6bf500.js.map": "/static/js/main.0a6bf500.js.map",
     "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef3404d5.css",
-    "static/js/main.f3c6deb7.js"
+    "static/js/main.0a6bf500.js"
   ]
 }
