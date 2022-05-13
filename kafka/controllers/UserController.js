@@ -15,8 +15,7 @@ exports.createUser = async (req, res) => {
       if (err) return res.status(400).json({ message: err });
       res.cookie("access-token", data.token, {
         maxAge: 9000000,
-        httpOnly: false,
-        domain:"stackoverflow-LB-564229095.us-east-1.elb.amazonaws.com"
+        httpOnly: false
       });
       res.cookie("ID", data.newMember.id, {
         maxAge: 9000000,
@@ -41,8 +40,7 @@ exports.login = async (req, res) => {
       if (err) return res.status(400).json({ message: err });
       res.cookie("access-token", data.token, {
         maxAge: 9000000,
-        httpOnly: false,
-        domain:"stackoverflow-LB-564229095.us-east-1.elb.amazonaws.com"
+        httpOnly: false
       });
       res.cookie("ID", data.member.id, {
         maxAge: 9000000,
